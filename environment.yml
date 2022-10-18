@@ -1,0 +1,19 @@
+name: incas-changepoint
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.5
+  - flask
+  - flask-cors
+  - tornado
+  - requests
+  - pip
+  - pip:
+    - numpy
+    - nltk
+    - spacy
+    - sklearn
+    - igraph
+    - scikit-optimize
+    - pandas
